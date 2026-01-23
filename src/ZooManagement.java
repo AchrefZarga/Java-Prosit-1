@@ -21,7 +21,7 @@ public class ZooManagement {
 
         while (!scanner.hasNextInt()) {
             System.out.println("Input invalide Veuillez entrer Un nombre : ");
-            scanner.next(); // discard invalid input
+            scanner.next();
         }
 
         zoo.nbrCages = scanner.nextInt();
