@@ -1,4 +1,7 @@
 package Prosit8;
 
-public class IRechercheAvancee {
+import java.util.List;
+
+public interface IRechercheAvancee<T> {
+    List<T> rechercherParDepartement(String nomDepartement);
 }
